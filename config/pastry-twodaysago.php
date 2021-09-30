@@ -2,7 +2,7 @@
 return [
     [
         'name' => 'cassatina',
-        'ingredients' => 'zucchero, mele',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 1.00,
         'discount_price' => 0,
         'quantity' => 15,
@@ -10,7 +10,7 @@ return [
     ],
     [
         'name' => 'torta cheesecake',
-        'ingredients' => 'pasta sfoglia',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 11.00,
         'discount_price' => 0,
         'quantity' => 5,

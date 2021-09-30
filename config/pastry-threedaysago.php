@@ -2,7 +2,7 @@
 return [
     [
         'name' => 'baba',
-        'ingredients' => 'pasta sfoglia',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 1.50,
         'discount_price' => 0,
         'quantity' => 25,
@@ -10,7 +10,7 @@ return [
     ],
     [
         'name' => 'crostatina alla frutta',
-        'ingredients' => 'pasta sfoglia',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 2.00,
         'discount_price' => 0,
         'quantity' => 15,

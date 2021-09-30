@@ -2,7 +2,7 @@
 return [
     [
         'name' => 'cannolo',
-        'ingredients' => 'zucchero, mele',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 2.00,
         'discount_price' => 0,
         'quantity' => 25,
@@ -10,7 +10,7 @@ return [
     ],
     [
         'name' => 'muffin',
-        'ingredients' => 'pasta sfoglia',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 1.00,
         'discount_price' => 0,
         'quantity' => 20,

@@ -2,7 +2,7 @@
 return [
     [
         'name' => 'torta di mele',
-        'ingredients' => 'zucchero, mele',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 10.00,
         'discount_price' => 0,
         'quantity' => 5,
@@ -10,7 +10,7 @@ return [
     ],
     [
         'name' => 'fetta torta di mele',
-        'ingredients' => 'zucchero, mele',
+        'ingredients' => 'zucchero, mele, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 10.00,
         'discount_price' => 0,
         'quantity' => 5,
@@ -18,7 +18,7 @@ return [
     ],
     [
         'name' => 'sfogliatella',
-        'ingredients' => 'pasta sfoglia',
+        'ingredients' => 'zucchero, farina, burro, latte, uova, limoni, lievito, cannella',
         'price' => 1.50,
         'discount_price' => 0,
         'quantity' => 20,
