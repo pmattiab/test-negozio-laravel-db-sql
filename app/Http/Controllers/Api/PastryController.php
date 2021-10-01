@@ -31,4 +31,16 @@ class PastryController extends Controller
 
         return response()->json($result);
     }
+
+    public function backofficeIndex() {
+        
+        $pastries = Pastry::all();
+
+        $result = [
+            "success" => true,
+            "pastries" => $pastries,
+        ];
+
+        return response()->json($result);
+    }
 }

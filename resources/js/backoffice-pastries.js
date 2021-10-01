@@ -9,7 +9,7 @@ var app = new Vue({
     },
 
     mounted() {
-        axios.get("http://127.0.0.1:8000/api/pastries")
+        axios.get("http://127.0.0.1:8000/api/backoffice-pastries")
         .then(result => {
 
             result.data.pastries.forEach(element => {

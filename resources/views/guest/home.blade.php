@@ -31,12 +31,12 @@
         {{-- card generate con vue js da api --}}
         <div id="root">
             <div class="row">
-                <div v-for="pastry in pastries" class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div v-for="pastry in pastries" class="col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="card mt-2 mb-4">
-                        <img v-if="pastry.img_path" :src="'/storage/' + pastry.img_path" alt="@{{pastry.name}}" class="card-img-top">
+                        <img v-if="pastry.img_path" :src="'/storage/' + pastry.img_path" :alt="pastry.name" class="card-img-top">
                         <img v-else src="{{asset('storage/' . 'pasticceria.jpg')}}" alt="pasticceria" class="card-img-top">
                         <div class="card-body">
-                            <h3 class="card-title">@{{pastry.name}}</h3>
+                            <h3 class="card-title text-capitalize">@{{pastry.name}}</h3>
                             <div class="mb-3">
                                 <p>Prezzo
                                     <span v-if="pastry.discount_price"><del>€ @{{pastry.price.replace(".", ",")}}</del> € @{{pastry.discount_price.replace(".", ",")}}</span>

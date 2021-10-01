@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2094,10 +2094,10 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "./resources/js/pastries.js":
-/*!**********************************!*\
-  !*** ./resources/js/pastries.js ***!
-  \**********************************/
+/***/ "./resources/js/backoffice-pastries.js":
+/*!*********************************************!*\
+  !*** ./resources/js/backoffice-pastries.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2112,7 +2112,7 @@ var app = new Vue({
   mounted: function mounted() {
     var _this = this;
 
-    axios.get("http://127.0.0.1:8000/api/pastries").then(function (result) {
+    axios.get("http://127.0.0.1:8000/api/backoffice-pastries").then(function (result) {
       result.data.pastries.forEach(function (element) {
         // impostare le due cifre decimali nel prezzo
         element.price = element.price.toFixed(2); // impostare le due cifre decimali nel prezzo scontato (se esiste)
@@ -2128,14 +2128,14 @@ var app = new Vue({
 
 /***/ }),
 
-/***/ 1:
-/*!****************************************!*\
-  !*** multi ./resources/js/pastries.js ***!
-  \****************************************/
+/***/ 2:
+/*!***************************************************!*\
+  !*** multi ./resources/js/backoffice-pastries.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/mattia/Boolean/pasticceria/resources/js/pastries.js */"./resources/js/pastries.js");
+module.exports = __webpack_require__(/*! /Users/mattia/Boolean/pasticceria/resources/js/backoffice-pastries.js */"./resources/js/backoffice-pastries.js");
 
 
 /***/ })

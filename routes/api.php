@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get("/pastries", "Api\PastryController@index")->name("api.pastries");
+
+Route::get("/backoffice-pastries", "Api\PastryController@backofficeIndex")->name("api.backoffice.pastries");
